@@ -9,8 +9,8 @@ export default {
 </script>
 
 <template>
-    <div>
-        <MenuComponent />
-        Hola mundo
+    <MenuComponent />
+    <div class="bg-danger p-5">
+        
     </div>
 </template>
