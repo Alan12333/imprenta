@@ -21,10 +21,21 @@ export default {
                         <div class="dropdown">
                             <span>Servicios</span>
                             <div class="menu-dropdown">
-                                <router-link to="">Tarjetas</router-link>
-                                <router-link to="">Sublimación</router-link>
-                                <router-link to="">Onset</router-link>
-                                <router-link to="">Digital</router-link>
+                                <div class="dropdown-item-menu">
+                                    <p>Impresión Digital</p>
+                                </div>
+                                <div class="dropdown-item-menu">
+                                    <p>Impresión Offset</p>
+                                </div>
+                                <div class="dropdown-item-menu">
+                                    <p>Tarjetas de presentación</p>
+                                </div>
+                                <div class="dropdown-item-menu">
+                                    <p>Sublimación</p>
+                                </div>
+                                <div class="dropdown-item-menu">
+                                    <p>Diseño Digital</p>
+                                </div>
                             </div>
                         </div>
                     </div>
