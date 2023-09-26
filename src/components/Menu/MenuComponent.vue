@@ -19,7 +19,9 @@ export default {
                     </div>
                     <div class="menu-item">
                         <div class="dropdown">
-                            <span>Servicios</span>
+                            <div class="pints">
+                                <span>Servicios</span>
+                            </div>
                             <div class="menu-dropdown">
                                 <div class="dropdown-item-menu">
                                     <p>Impresión Digital</p>
