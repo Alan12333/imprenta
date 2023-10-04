@@ -6,6 +6,9 @@
     width: 100%;
     border: none;
     display: block;
+    position: fixed;
+    z-index: 10;
+    background: white;
 }
 
 .menu-content {
@@ -276,7 +279,6 @@
         width: 90%;
         
     }
-
     .services-content-menu {
         width: 100%;
         padding: 10px;

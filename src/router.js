@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
-import InicioComponent from "./components/InicioComponent.vue";
+import InicioComponent from "./components/Inicio/InicioComponent.vue";
 
 const routes = [
     {
