@@ -52,45 +52,45 @@ export default {
         <div class="w-75 m-auto">
             <h3 class="fs-1 text-bold text-center blueblack">MÁS SOLICITADO</h3>
         </div><br>
-        <div class="container mt-5">
-            <div class="row">
-                <div class="card-service col-md-3">
-                    <div class="w-100 d-flex mt-3 mb-3">
-                        <div class="w-25 m-auto">
+        <div class="content mt-5">
+            <div class="rw">
+                <div class="card-service sup-4-s">
+                    <div class="cont-100 flex mt-3 mb-3">
+                        <div class="cont-25 mr-auto">
                             <img src="../../assets/icons/ofset.png" alt="">
                         </div>
-                        <div class="w-70 m-auto">
+                        <div class="cont-70 mr-auto">
                             <p class="fs-6 fw-bold mt-3">IMPRESIÓN OFFSET</p>
                         </div>
                     </div>
                 </div>
-                <div class="card-service col-md-3 card-down">
-                    <div class="w-100 d-flex mt-3 mb-3">
-                        <div class="w-25 m-auto">
+                <div class="card-service sup-4-s card-down">
+                    <div class="cont-100 flex mt-3 mb-3">
+                        <div class="cont-25 mr-auto">
                             <img src="../../assets/icons/design.png" alt="">
                         </div>
-                        <div class="w-70 m-auto">
-                            <p class="fs-6 fw-bold mt-3">DISEÑO GRÁFICO</p>
+                        <div class="cont-70 mr-auto">
+                            <p class="ts-6 fw-bold mt-3">DISEÑO GRÁFICO</p>
                         </div>
                     </div>
                 </div>
-                <div class="card-service col-md-3">
-                    <div class="w-100 d-flex mt-3 mb-3">
-                        <div class="w-25 m-auto">
+                <div class="card-service sup-4-s">
+                    <div class="cont-100 flex mt-3 mb-3">
+                        <div class="cont-25 mr-auto">
                             <img src="../../assets/icons/playera.png" alt="">
                         </div>
-                        <div class="w-70 m-auto">
-                            <p class="fs-6 fw-bold mt-3">PERSONALIZACIÓN</p>
+                        <div class="cont-70 mr-auto">
+                            <p class="ts-6 fw-bold mt-3">PERSONALIZACIÓN</p>
                         </div>
                     </div>
                 </div>
-                <div class="card-service card-down col-md-3">
-                    <div class="w-100 d-flex mt-3 mb-3">
-                        <div class="w-25 m-auto">
+                <div class="card-service card-down sup-4-s">
+                    <div class="cont-100 flex mt-3 mb-3">
+                        <div class="cont-25 mr-auto">
                             <img src="../../assets/icons/trazador.png" alt="">
                         </div>
-                        <div class="w-70 m-auto">
-                            <p class="fs-6 fw-bold mt-3">IMPRESIÓN DIGITAL</p>
+                        <div class="cont-70 mr-auto">
+                            <p class="ts-6 fw-bold mt-3">IMPRESIÓN DIGITAL</p>
                         </div>
                     </div>
                 </div>

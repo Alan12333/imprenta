@@ -3,6 +3,7 @@
 </template>
 
 <script>
+import "./components/style.css";
 export default {
   name: 'App',
 }
