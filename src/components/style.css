@@ -1499,77 +1499,77 @@ body {
 
 .sup-12-s {
     overflow: hidden;
-    flex: 0 0 calc(8% - 10px);
+    flex: 0 0 calc(8% - 5px);
     margin: auto;
     transition: all .45s;
 }
 
 .sup-6-s {
     overflow: hidden;
-    flex: 0 0 calc(15.8% - 10px);
+    flex: 0 0 calc(15.8% - 5px);
     margin: auto;
     transition: all .45s;
 }
 
 .sup-11-s {
     overflow: hidden;
-    flex: 0 0 calc(9% - 10px);
+    flex: 0 0 calc(9% - 5px);
     margin: auto;
     transition: all .45s;
 }
 
 .sup-10-s {
     overflow: hidden;
-    flex: 0 0 calc(9.5% - 10px);
+    flex: 0 0 calc(9.5% - 5px);
     margin: auto;
     transition: all .45s;
 }
 
 .sup-9-s {
     overflow: hidden;
-    flex: 0 0 calc(10.11% - 10px);
+    flex: 0 0 calc(10.11% - 5px);
     margin: auto;
     transition: all .45s;
 }
 
 .sup-8-s {
     overflow: hidden;
-    flex: 0 0 calc(11% - 10px);
+    flex: 0 0 calc(11% - 5px);
     margin: auto;
     transition: all .45s;
 }
 
 .sup-7-s {
     overflow: hidden;
-    flex: 0 0 calc(13.28% - 10px);
+    flex: 0 0 calc(13.28% - 5px);
     margin: auto;
     transition: all .45s;
 }
 
 .sup-5-s {
     overflow: hidden;
-    flex: 0 0 calc(19% - 10px);
+    flex: 0 0 calc(19% - 5px);
     margin: auto;
     transition: all .45s;
 }
 
 .sup-4-s {
     overflow: hidden;
-    flex: 0 0 calc(23% - 10px);
+    flex: 0 0 calc(23% - 5px);
     margin: auto;
     transition: all .45s;
 }
 
 .sup-3-s {
     overflow: hidden;
-    flex: 0 0 calc(32% - 10px);
+    flex: 0 0 calc(32% - 5px);
     margin: auto;
     transition: all .45s;
 }
 
 .sup-2-s {
     overflow: hidden;
-    flex: 0 0 calc(48% - 10px);
+    flex: 0 0 calc(48% - 5px);
     margin: auto;
     transition: all .45s;
 }
@@ -1592,7 +1592,7 @@ body {
     font-size: 1.2em;
 }
 
-@media(max-width:1024px) {
+@media(max-width:958px) {
     .rw {
         display: block;
     }
