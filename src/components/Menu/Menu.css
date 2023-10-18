@@ -70,8 +70,8 @@
     transition: all .45s;
     position: relative;
 }
-.script{
-    font-family: 'Dancing Script', cursive;
+.arch{
+    font-family: 'Archivo Black', sans-serif;
 }
 
 .button-coti:hover {
