@@ -32,7 +32,8 @@ export default {
         @slideChange="onSlideChange" :loop="true">
         <swiper-slide>
             <div class="banner">
-
+                <div class="fondo">
+                </div>
             </div>
         </swiper-slide>
         <swiper-slide>
@@ -104,7 +105,7 @@ export default {
                         </div><br>
                         <div class="cont-85 m-auto">
                             <p class="fs-6 text-justify">
-                                La personalización es esencial para tu empresa. Ofrecemos productos  personalizados,
+                                La personalización es esencial para tu empresa. Ofrecemos productos personalizados,
                                 como tazas, llaveros, plumas, playeras y más, que resaltan tu marca y satisfacen las
                                 necesidades de tu audiencia.
                             </p>
@@ -122,7 +123,7 @@ export default {
                         <div class="cont-85 m-auto">
                             <p class="fs-6 text-justify">
                                 La impresión digital destaca por su versatilidad. Ofrecemos servicios de impresión digital
-                                de alta calidad para brindar resultados nítidos y rápidos, 
+                                de alta calidad para brindar resultados nítidos y rápidos,
                                 resaltando tu marca con eficacia.
                             </p>
                         </div>
@@ -161,7 +162,7 @@ export default {
                             <div class="w-100 flex-f">
                                 <img src="../../assets/icons/check.png" alt="" class="icon-check">
                                 <p class="">Impresión Digital de Calidad</p>
-                                </div>
+                            </div>
                             <div class="w-100 flex-f">
                                 <img src="../../assets/icons/check.png" alt="" class="icon-check">
                                 <p class="">Personalización Única</p>
@@ -179,6 +180,37 @@ export default {
                 </div>
             </div>
             <div class="separator"></div>
+        </div>
+    </div>
+
+    <div class="Inicio-section-2">
+        <div class="w-100 m-auto">
+            <h1 class="text-trans">SERVICIOS</h1>
+            <h3 class="fs-1 text-bold text-center blueblack">NUESTROS SERVICIOS</h3>
+        </div><br>
+        <div class="content">
+            <div class="rw">
+                <div class="sup-4-s">
+                    <div class="card-service">
+                        
+                    </div>
+                </div>
+                <div class="sup-4-s">
+                    <div class="card-service">
+                        
+                    </div>
+                </div>
+                <div class="sup-4-s">
+                    <div class="card-service">
+                        
+                    </div>
+                </div>
+                <div class="sup-4-s">
+                    <div class="card-service">
+                        
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
