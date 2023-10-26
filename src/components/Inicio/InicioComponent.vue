@@ -52,7 +52,7 @@ export default {
         <div class="contenido">
             <div class="text-margin"></div>
             <div class="w-100 m-auto">
-                <h1 class="text-trans">MAS SOLICITADO</h1>
+                <h1 class="text-trans cmag">MAS SOLICITADO</h1>
                 <h3 class="fs-1 text-bold text-center blueblack">MÁS SOLICITADO</h3>
             </div><br>
             <div class="content mt-5">
@@ -183,35 +183,76 @@ export default {
         </div>
     </div>
 
-    <div class="Inicio-section-2">
-        <div class="w-100 m-auto">
-            <h1 class="text-trans">SERVICIOS</h1>
-            <h3 class="fs-1 text-bold text-center blueblack">NUESTROS SERVICIOS</h3>
-        </div><br>
-        <div class="content">
-            <div class="rw">
-                <div class="sup-4-s">
-                    <div class="card-service">
-                        
+    <div class="inicio-section-2">
+        <div class="contenido">
+            <div class="separator"></div>
+            <h1 class="text-trans ">¿COMO LO HACEMOS?</h1>
+            <h3 class="fs-1 text-bold text-center ">¿COMO LO HACEMOS?</h3>
+            <div class="line-content">
+                <div class="time-line"></div>
+                <div class="content-time-line">
+                    <div class=" sup-4-s m-auto">
+                        <img src="../../assets/icons/idea.png" alt="" class="sup-img">
+                        <div class="white-circle"></div>
+                        <div class="w-100">
+                            <br>
+                            <h4 class="text-center fs-5 fw-bold">CONCEPTUALIZACIÓN</h4>
+                            <br>
+                            <div class="text-content">
+                                <p class="px12 text-center">
+                                    En esta etapa, se estimulan ideas, se dan forma a conceptos creativos y se inicia una
+                                    conversación esencial con el cliente para comprender sus necesidades iniciales.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="sup-4-s">
-                    <div class="card-service">
-                        
+                    <div class=" sup-4-s m-auto">
+                        <img src="../../assets/icons/diseño.png" alt="" class="sup-img">
+                        <div class="white-circle"></div>
+                        <div class="w-100">
+                            <br>
+                            <h4 class="text-center fs-5 fw-bold">DISEÑO</h4>
+                            <br>
+                            <div class="text-content">
+                                <p class="px12 text-center">
+                                    Aquí se materializan los conceptos en diseños gráficos atractivos, 
+                                    se desarrolla una propuesta visual y se presenta al cliente para su aprobación.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="sup-4-s">
-                    <div class="card-service">
-                        
+                    <div class=" sup-4-s m-auto">
+                        <img src="../../assets/icons/print.png" alt="" class="sup-img">
+                        <div class="white-circle"></div>
+                        <div class="w-100">
+                            <br>
+                            <h4 class="text-center fs-5 fw-bold">PRODUCCIÓN</h4>
+                            <br>
+                            <div class="text-content">
+                                <p class="text-center">
+                                    En esta fase, se ejecuta la producción gráfica y la creación de productos, 
+                                    siempre manteniendo un riguroso control de calidad en el proceso de impresión y fabricación.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="sup-4-s">
-                    <div class="card-service">
-                        
+                    <div class=" sup-4-s m-auto">
+                        <img src="../../assets/icons/finish.png" alt="" class="sup-img">
+                        <div class="white-circle"></div>
+                        <div class="w-100">
+                            <br>
+                            <h4 class="text-center fs-5 fw-bold">ENTREGA</h4>
+                            <br>
+                            <div class="text-content">
+                                <p class="text-center">
+                                    En la etapa final, se preparan los productos cuidadosamente, se gestionan las entregas al cliente,
+                                    y se busca asegurar la satisfacción del mismo.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </template>
-

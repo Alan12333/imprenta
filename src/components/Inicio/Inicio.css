@@ -37,9 +37,9 @@
     font-size: 100px;
     font-weight: bold;
     opacity: 0.2;
-    color:rgb(233, 51, 141);
-    transform: translateY(20px) ;
+    transform: translateY(20px);
 }
+
 .card-service img{
     width: 90%;
     margin: auto;
@@ -98,6 +98,65 @@
     height: 100%;
     background-position: center;
 }
+
+.line-content{
+    width: 100%;
+    display: flex;
+    position:relative;
+}
+.time-line{
+    margin-top: 120px;
+    width: 100%;
+    height: 1px;
+    border: 2px dashed rgb(41, 160, 218);
+}
+.content-time-line {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    margin-top: 90px;
+}
+
+.sup-img {
+    width: 50px;
+    display: block;
+    margin: auto;
+    transition: all .45s;
+}
+
+.white-circle {
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 2px solid rgb(41, 160, 218);
+    margin: auto;
+    display: block;
+    margin-top: 21px;
+    border-radius: 50%;
+}
+
+.line-content {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.time-line {
+    margin-top: 169px;
+    width: 100%;
+    height: 1px;
+    border: 2px dashed rgb(41, 160, 218);
+}
+
+.sup-img:hover
+{
+    transform: rotate(360deg);
+}
+
+.text-content{
+    width: 100%;
+    height: 180px;
+}
 @media(max-width:1150px)
 {
     .text-trans{
@@ -126,6 +185,38 @@
     {
         margin-left: auto;
     }
+
+
+    .content-time-line {
+        display: block;
+        margin-top: 130px;
+    }
+    .white-circle {
+        margin-left: 0px;
+    }
+    
+    .line-content {
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+    
+    .time-line {
+        margin-left: 8px;
+        margin-top: 110px;
+        width: 1px;
+        height: 1350px;
+    }
+    
+    .sup-img:hover
+    {
+        transform: rotate(360deg);
+    }
+    
+    .text-content{
+        width: 80%;
+        margin: auto;
+    }
 }
 
 @media(max-width:873px){
@@ -143,6 +234,7 @@
 @media(max-width:665px){
     .text-trans{
         font-size: 50px;
+        padding-bottom: 20px;
     }
     .article-text{
         font-size: 1.5em;
@@ -157,6 +249,13 @@
     .article-text{
         font-size: 1.3em;
     }
+    .time-line {
+        
+        height: 1500px;
+    }
+    .text-content{
+        height: 200px;
+    }
 }
 
 @media(max-width:400px){
@@ -165,5 +264,12 @@
     }
     .article-text{
         font-size: 1em;
+    }
+    .time-line {
+        
+        height: 1800px;
+    }
+    .text-content{
+        height: 250px;
     }
 }
