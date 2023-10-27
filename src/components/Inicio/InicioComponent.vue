@@ -60,7 +60,7 @@ export default {
                     <div class="card-service sup-4-s">
                         <div class="cont-90 mr-auto flex mt-3 mb-3">
                             <div class="cont-30 mr-auto">
-                                <img src="../../assets/icons/ofset.png" alt="">
+                                <img src="../../assets/icons/ofset.png" alt="" class="mt-2">
                             </div>
                             <div class="cont-65 mr-auto">
                                 <p class="article-text fw-bold mt-3">IMPRESIÓN OFFSET</p>
@@ -80,7 +80,7 @@ export default {
                     <div class="card-service sup-4-s card-down">
                         <div class="cont-90 mr-auto flex mt-3 mb-3">
                             <div class="cont-30 mr-auto">
-                                <img src="../../assets/icons/design.png" alt="">
+                                <img src="../../assets/icons/design.png" alt="" class="mt-2">
                             </div>
                             <div class="cont-65 mr-auto">
                                 <p class="article-text fw-bold mt-3">DISEÑO GRÁFICO</p>
@@ -97,7 +97,7 @@ export default {
                     <div class="card-service sup-4-s">
                         <div class="cont-90 mr-auto flex mt-3 mb-3">
                             <div class="cont-30 mr-auto">
-                                <img src="../../assets/icons/playera.png" alt="">
+                                <img src="../../assets/icons/playera.png" alt="" class="mt-2">
                             </div>
                             <div class="cont-65 mr-auto">
                                 <p class="article-text fw-bold mt-3">PERSONALIZACIÓN</p>
@@ -114,7 +114,7 @@ export default {
                     <div class="card-service card-down sup-4-s">
                         <div class="cont-90 mr-auto flex mt-3 mb-3">
                             <div class="cont-30 mr-auto">
-                                <img src="../../assets/icons/trazador.png" alt="">
+                                <img src="../../assets/icons/trazador.png" alt="" class="mt-2">
                             </div>
                             <div class="cont-65 mr-auto">
                                 <p class="article-text fw-bold mt-3">IMPRESIÓN DIGITAL</p>
@@ -183,11 +183,11 @@ export default {
         </div>
     </div>
 
-    <div class="inicio-section-2">
+    <div class="section3">
+        <div class="separator"></div>
+        <h1 class="text-trans ">¿COMO LO HACEMOS?</h1>
+        <h3 class="fs-1 text-bold text-center ">¿COMO LO HACEMOS?</h3>
         <div class="contenido">
-            <div class="separator"></div>
-            <h1 class="text-trans ">¿COMO LO HACEMOS?</h1>
-            <h3 class="fs-1 text-bold text-center ">¿COMO LO HACEMOS?</h3>
             <div class="line-content">
                 <div class="time-line"></div>
                 <div class="content-time-line">
@@ -255,4 +255,56 @@ export default {
             </div>
         </div>
     </div>
+
+    <div class="separator"></div>
+    <div class="w-100">
+        <h1 class="text-trans ">SERVICIOS</h1>
+        <h3 class="fs-1 text-bold text-center ">NUESTROS SERVICIOS</h3>
+        <div class="contenido mt-4">
+            <div class="rw">
+                <div class="sup-4-s shad-1-gray mt-4 m-auto border-rad-1 bg-white">
+                    <img src="../../assets/icons/ofset.png" alt="" class="service-img">
+                    <p class="fs-5 text-center fw-bold">Impresión Offset</p>
+                </div>
+                <div class="sup-4-s shad-1-gray my-4 m-auto border-rad-1 bg-white">
+                    <img src="../../assets/icons/ofset.png" alt="" class="service-img">
+                    <p class="fs-5 text-center fw-bold">Impresión Offset</p>
+                </div>
+                <div class="sup-4-s shad-1-gray my-4 m-auto border-rad-1 bg-white">
+                    <img src="../../assets/icons/ofset.png" alt="" class="service-img">
+                    <p class="fs-5 text-center fw-bold">Impresión Offset</p>
+                </div>
+                <div class="sup-4-s shad-1-gray my-4 m-auto border-rad-1 bg-white">
+                    <img src="../../assets/icons/ofset.png" alt="" class="service-img">
+                    <p class="fs-5 text-center fw-bold">Impresión Offset</p>
+                </div>
+                <div class="sup-4-s shad-1-gray my-4 m-auto border-rad-1 bg-white">
+                    <img src="../../assets/icons/ofset.png" alt="" class="service-img">
+                    <p class="fs-5 text-center fw-bold">Impresión Offset</p>
+                </div>
+                <div class="sup-4-s shad-1-gray my-4 m-auto border-rad-1 bg-white">
+                    <img src="../../assets/icons/ofset.png" alt="" class="service-img">
+                    <p class="fs-5 text-center fw-bold">Impresión Offset</p>
+                </div>
+                <div class="sup-4-s shad-1-gray my-4 m-auto border-rad-1 bg-white">
+                    <img src="../../assets/icons/ofset.png" alt="" class="service-img">
+                    <p class="fs-5 text-center fw-bold">Impresión Offset</p>
+                </div>
+                <div class="sup-4-s shad-1-gray my-4 m-auto border-rad-1 bg-white">
+                    <img src="../../assets/icons/ofset.png" alt="" class="service-img">
+                    <p class="fs-5 text-center fw-bold">Impresión Offset</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
+
+<style>
+.service-img{
+    display: block;
+    margin: auto;
+    width: 35%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+</style>
