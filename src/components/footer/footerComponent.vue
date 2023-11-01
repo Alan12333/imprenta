@@ -11,7 +11,7 @@ export default {
         <div class="contenido mt-5">
             <div class="content">
                 <div class="rw">
-                    <div class="sup-3-s">
+                    <div class="sup-4-s">
                         <img src="../../assets/img/logo-w.png" alt="" class="footer-img">
                         <p class="cont-90 footer-text">
                             Explorando la belleza de la impresión. Cada diseño cuenta una historia única.
@@ -30,10 +30,11 @@ export default {
                             <p class="fs-6 text-white mr-l-4">imprentaidealp@hotmail.com.</p>
                         </div>
                     </div>
-                    <div class="sup-3-s">
+
+                    <div class="sup-2-s">
                         <div class="content">
                             <div class="rw">
-                                <div class="sup-2">
+                                <div class="sup-2-s">
                                     <p class="fs-5 fw-bold text-white">ACCESO RAPIDO</p>
                                     <div class="line"></div>
                                     <div class="flex-f my-4">
@@ -56,8 +57,9 @@ export default {
                                         <img src="../../assets/icons/rows.png" alt="" class="footer-icon">
                                         <router-link to="" class="fs-6  mr-l-4 footer-link">Productos</router-link>
                                     </div>
+                                    <div class="min-space"></div>
                                 </div>
-                                <div class="sup-2">
+                                <div class="sup-2-s">
                                     <p class="fs-5 fw-bold text-white">PRODUCTOS</p>
                                     <div class="line"></div>
                                     <div class="flex-f my-4">
@@ -80,14 +82,26 @@ export default {
                                         <img src="../../assets/icons/rows.png" alt="" class="footer-icon">
                                         <router-link to="" class="fs-6  mr-l-4 footer-link">Tazas</router-link>
                                     </div>
+                                    <div class="min-space"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="sup-3-s">
 
+                    <div class="sup-4-s">
+                        <p class="fs-5 fw-bold text-white ">NEWS LETTER</p>
+                        <div class="line"></div>
+                        <div class=" my-4">
+                            <p class="fs-6 text-white">Suscribete y obtén las ultimas ofertas y noticias acerca de nuevos productos.</p>
+                            <input type="mail" v-model="correo" class="input-news">
+                            <button type="button" class="btn w-100 btn-primary mt-4 p-2" style="background:#2CA1DA;">Suscribirse</button>
+                            <div class="min-space"></div>
+                        </div>
                     </div>
                 </div>
+            </div>
+            <div>
+                <p class="fs-7 mt-5 text-center text-white">Calidad impresa en cada detalle. Tu historia, nuestra pasión. Impresos Pénjamo. © 2023</p>
             </div>
         </div>
     </div>
@@ -123,5 +137,22 @@ export default {
 .footer-link:hover
 {
     color: #2CA1DA;;
+}
+.input-news{
+    width:100%;
+    padding:10px;
+    border:1px solid white;
+    border-radius:12px;
+    background:transparent;
+    color:white;
+    outline:none;
+    margin-top:5px;
+}
+.fs-7
+{
+    font-size:0.8rem;
+}
+.min-space{
+    height: 25px;
 }
 </style>

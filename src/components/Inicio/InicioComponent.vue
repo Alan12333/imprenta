@@ -303,15 +303,16 @@ export default {
     </div>
     <div class="separator"></div>
 
-    <div class="banner">
+    <div class="banner2">
         <div class="fondo2">
-            <div class="contenido"><br><br>
-                <div class="w-100 content">
+            <div class="contenido"><br><br><br>
+                <div class="w-100 content mt-6">
                     <div class="rw">
                         <div class="sup-2-s">
-                            <img src="../../assets/img/cards.png" class="d-block m-auto w-100">
-                        </div>
+                            <img src="../../assets/img/cards.png" class="img-splot">
+                        </div><br><br>
                         <div class="sup-2-s">
+                        
                             <h3 class="text-white text-center fw-bold fs-4">¡Déjanos dar vida a tus ideas impresas! </h3>
                             <br>
                             <div class="cont-80 m-auto">
@@ -325,6 +326,7 @@ export default {
                                 </p>
                                 <br>
                                 <h2 class="fs-2 text-white fw-bold">LLAMA AHORA: 462 420 5146</h2>
+                                <button class="btn btn-primary d-block m-auto my-5 p-3 btn-sp" style="background: #3E4095;">Contactanos</button>
                             </div>
                         </div>
                     </div>
@@ -334,16 +336,34 @@ export default {
     </div>
 
     <div class="separator"></div>
-    <div class=""></div>
+    <div class="contenido">
+        <div class="content">
+            <div class="rw">
+                <div class="sup-2-s">
+                    
+                </div>
+                <div class="sup-2-s">
+                    <div class="card-question">
+                        <div class="w-100 d-flex">
+                            <img src="../../assets/icons/question.png" alt="" class="info-icon">
+                            <h6 class="fs-4 fw-bold">¿Pregunta numero 1?</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="separator"></div>
     
     <footerComponent/>
 </template>
 
 <style>
-.service-img {
+.info-icon{
+    width: 24px;
+    height: 24px;
     display: block;
-    margin: auto;
-    width: 35%;
-    margin-top: 35px;
-    margin-bottom: 35px;
-}</style>
+    margin-right:12px;
+    margin-top: 5px;
+}
+</style>
