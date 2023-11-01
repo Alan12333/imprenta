@@ -141,7 +141,7 @@ export default {
 .input-news{
     width:100%;
     padding:10px;
-    border:1px solid white;
+    border:2px solid white;
     border-radius:12px;
     background:transparent;
     color:white;

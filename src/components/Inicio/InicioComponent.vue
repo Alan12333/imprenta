@@ -16,14 +16,38 @@ export default {
         SwiperSlide,
         footerComponent
     },
-    setup() {
-        const onSwiper = (swiper) => {
-            console.log(swiper);
-        };
+    data() {
         return {
-            onSwiper,
-            modules: [Navigation, A11y],
-        };
+            question1:true,
+            question2:false,
+            question3:false,
+            modules: [Navigation, A11y]
+        }
+    },
+    methods: {
+        onSwiper(swiper){
+            console.log(swiper);
+        },
+        OpenQuestion(number){
+            if (number === 1) {
+                this.question1= !this.question1; 
+                this.question2 = false;
+                this.question3 = false;
+            }
+            if (number === 2) {
+                this.question1 = false;
+                this.question2= !this.question2; 
+                this.question3 = false;
+            }
+            if (number === 3) {
+                this.question1 = false;
+                this.question2 = false;
+                this.question3= !this.question3; 
+            }
+        },
+    },
+    mounted() {
+        
     },
 }
 </script>
@@ -312,21 +336,25 @@ export default {
                             <img src="../../assets/img/cards.png" class="img-splot">
                         </div><br><br>
                         <div class="sup-2-s">
-                        
+
                             <h3 class="text-white text-center fw-bold fs-4">¡Déjanos dar vida a tus ideas impresas! </h3>
                             <br>
                             <div class="cont-80 m-auto">
                                 <p class="text-white fs-6 text-justify">
-                                    En nuestro servicio de impresión, nos especializamos en plasmar tus ideas en papel. Ya sea
+                                    En nuestro servicio de impresión, nos especializamos en plasmar tus ideas en papel. Ya
+                                    sea
                                     que necesites impresiones a gran escala para promociones, materiales publicitarios o
-                                    simplemente impresiones personales, estamos aquí para cumplir con tus necesidades. Ofrecemos
-                                    una amplia gama de opciones de impresión, desde folletos, tarjetas de presentación, hasta
+                                    simplemente impresiones personales, estamos aquí para cumplir con tus necesidades.
+                                    Ofrecemos
+                                    una amplia gama de opciones de impresión, desde folletos, tarjetas de presentación,
+                                    hasta
                                     pósters y más. Nos enorgullecemos de brindar calidad, puntualidad y un servicio
                                     personalizado. ¡Contáctanos y convierte tus proyectos en realidad impresa!
                                 </p>
                                 <br>
                                 <h2 class="fs-2 text-white fw-bold">LLAMA AHORA: 462 420 5146</h2>
-                                <button class="btn btn-primary d-block m-auto my-5 p-3 btn-sp" style="background: #3E4095;">Contactanos</button>
+                                <button class="btn btn-primary d-block m-auto my-5 p-3 btn-sp"
+                                    style="background: #3E4095;">Contactanos</button>
                             </div>
                         </div>
                     </div>
@@ -335,35 +363,118 @@ export default {
         </div>
     </div>
 
-    <div class="separator"></div>
-    <div class="contenido">
-        <div class="content">
-            <div class="rw">
-                <div class="sup-2-s">
-                    
-                </div>
-                <div class="sup-2-s">
-                    <div class="card-question">
-                        <div class="w-100 d-flex">
-                            <img src="../../assets/icons/question.png" alt="" class="info-icon">
-                            <h6 class="fs-4 fw-bold">¿Pregunta numero 1?</h6>
+    <div class="w-100" style="background:rgb(241,241,241);">
+        <div class="separator"></div>
+        <div class="contenido">
+            <div class="content">
+                <div class="rw">
+                    <div class="sup-2-s">
+                        <form class="formulario">
+                            <div class="content">
+                                <div class="rw">
+                                    <div class="sup-2-s">
+                                        <input type="text" placeholder="Nombre Completo" class="input-form">
+                                    </div>
+                                    <div class="sup-2-s">
+                                        <input type="text" placeholder="Teléfono" class="input-form">
+                                    </div>
+                                </div>
+                                <input type="text" placeholder="Correo" class="input-form">
+                                <textarea name="" id="" cols="30" rows="8" class="input-form" placeholder="Mensaje"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="sup-2-s">
+                        <div class="card-question shadow-sm">
+                            <div class="cont-95 m-auto d-flex position-relative">
+                                <img src="../../assets/icons/question.png" alt="" class="info-icon">
+                                <h6 class="fs-5 mt-2 fw-bold" :class="{cblu:question1 === true}">¿Pregunta numero 1?</h6>
+                                <img src="../../assets/icons/down.png" alt="" class=" icn"
+                                    :class="{ rot: question1 == true }" @click="OpenQuestion(1)">
+                            </div>
+
+                            <div v-if="question1 == true" class="info" :class="{faq:question1 == true}">
+                                <div class="line2"></div>
+                                <div class="mt-3 cont-95 m-auto">
+                                    <p class="text-justify fs-6">Consequat anim dolor officia adipisicing et fugiat et
+                                        commodo ad consectetur pariatur. Amet laboris aute aliqua laborum enim nisi ex et.
+                                        Sunt commodo ipsum qui amet.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="card-question shadow-sm">
+                            <div class="cont-95 m-auto d-flex position-relative">
+                                <img src="../../assets/icons/question.png" alt="" class="info-icon">
+                                <h6 class="fs-5 mt-2 fw-bold" :class="{cblu:question2 === true}">¿Pregunta numero 2?</h6>
+                                <img src="../../assets/icons/down.png" alt="" class=" icn"
+                                    :class="{ rot: question2 == true }" @click="OpenQuestion(2)">
+                            </div>
+                            <div v-if="question2 == true" class="info" :class="{faq:question2 == true}">
+                                <div class="line2"></div>
+                                <div class="mt-3 cont-95 m-auto">
+                                    <p class="text-justify fs-6">Consequat anim dolor officia adipisicing et fugiat et
+                                        commodo ad consectetur pariatur. Amet laboris aute aliqua laborum enim nisi ex et.
+                                        Sunt commodo ipsum qui amet.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-question shadow-sm">
+                            <div class="cont-95 m-auto d-flex position-relative">
+                                <img src="../../assets/icons/question.png" alt="" class="info-icon">
+                                <h6 class="fs-5 mt-2 fw-bold" :class="{cblu:question3 === true}">¿Pregunta numero 3?</h6>
+                                <img src="../../assets/icons/down.png" alt="" class=" icn"
+                                    :class="{ rot: question3 == true }" @click="OpenQuestion(3)">
+                            </div>
+                            <div v-if="question3 == true" class="info" :class="{faq:question3 == true}">
+                                <div class="line2"></div>
+                                <div class="mt-3 cont-95 m-auto">
+                                    <p class="text-justify fs-6">Consequat anim dolor officia adipisicing et fugiat et
+                                        commodo ad consectetur pariatur. Amet laboris aute aliqua laborum enim nisi ex et.
+                                        Sunt commodo ipsum qui amet.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="separator"></div>
     </div>
-    <div class="separator"></div>
-    
-    <footerComponent/>
+
+    <footerComponent />
 </template>
 
 <style>
-.info-icon{
-    width: 24px;
-    height: 24px;
+.line2 {
+    margin-top: 25px;
+    width: 100%;
+    background: rgb(41, 160, 218);
+    height: 1px;
+}
+.cblu{color: rgb(41, 160, 218);}
+.info-icon {
+    width: 35px;
+    height: 35px;
     display: block;
-    margin-right:12px;
+    margin-right: 12px;
     margin-top: 5px;
+}
+
+.icn {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: 11px;
+    cursor: pointer;
+    transition: all .45s;
+}
+
+.rot {
+    transition: all .45s;
+    transform: rotate(180deg);
 }
 </style>
