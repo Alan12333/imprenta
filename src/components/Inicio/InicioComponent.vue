@@ -303,23 +303,27 @@ export default {
 
     <div class="banner">
         <div class="fondo2">
-            <div class="contenido">
+            <div class="contenido"><br><br>
                 <div class="w-100 content">
                     <div class="rw">
                         <div class="sup-2-s">
-                            <img src="../../assets/img/cards.png" class="d-block m-auto">
+                            <img src="../../assets/img/cards.png" class="d-block m-auto w-100">
                         </div>
                         <div class="sup-2-s">
-                            <h3 class="text-white text-center fw-bold fs-3">¡Déjanos dar vida a tus ideas impresas! </h3>
+                            <h3 class="text-white text-center fw-bold fs-4">¡Déjanos dar vida a tus ideas impresas! </h3>
                             <br>
-                            <p class="cont-95 m-auto text-white fs-6 text-justify">
-                                En nuestro servicio de impresión, nos especializamos en plasmar tus ideas en papel. Ya sea
-                                que necesites impresiones a gran escala para promociones, materiales publicitarios o
-                                simplemente impresiones personales, estamos aquí para cumplir con tus necesidades. Ofrecemos
-                                una amplia gama de opciones de impresión, desde folletos, tarjetas de presentación, hasta
-                                pósters y más. Nos enorgullecemos de brindar calidad, puntualidad y un servicio
-                                personalizado. ¡Contáctanos y convierte tus proyectos en realidad impresa!
-                            </p>
+                            <div class="cont-80 m-auto">
+                                <p class="text-white fs-6 text-justify">
+                                    En nuestro servicio de impresión, nos especializamos en plasmar tus ideas en papel. Ya sea
+                                    que necesites impresiones a gran escala para promociones, materiales publicitarios o
+                                    simplemente impresiones personales, estamos aquí para cumplir con tus necesidades. Ofrecemos
+                                    una amplia gama de opciones de impresión, desde folletos, tarjetas de presentación, hasta
+                                    pósters y más. Nos enorgullecemos de brindar calidad, puntualidad y un servicio
+                                    personalizado. ¡Contáctanos y convierte tus proyectos en realidad impresa!
+                                </p>
+                                <br>
+                                <h2 class="fs-2 text-white fw-bold">LLAMA AHORA: 462 420 5146</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
