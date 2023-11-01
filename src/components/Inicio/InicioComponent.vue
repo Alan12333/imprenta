@@ -1,9 +1,10 @@
 <script>
 import MenuComponent from "../Menu/MenuComponent.vue";
 import { Navigation, A11y } from 'swiper/modules';
-
+import footerComponent from "../footer/footerComponent.vue";
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue';
+
 import "./Inicio.css";
 
 
@@ -13,6 +14,7 @@ export default {
         MenuComponent,
         Swiper,
         SwiperSlide,
+        footerComponent
     },
     setup() {
         const onSwiper = (swiper) => {
@@ -330,6 +332,11 @@ export default {
             </div>
         </div>
     </div>
+
+    <div class="separator"></div>
+    <div class=""></div>
+    
+    <footerComponent/>
 </template>
 
 <style>
