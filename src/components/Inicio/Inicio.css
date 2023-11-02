@@ -245,6 +245,10 @@ html {
 .text-question{
     font-size: 1.25rem;
 }
+.conts{
+    height: 80px;
+}
+
 @media(max-width:1150px)
 {
     .text-trans{

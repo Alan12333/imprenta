@@ -69,7 +69,7 @@ export default {
                         <router-link to="/">Acerca de</router-link>
                     </div>
                     <div class="menu-item">
-                        <router-link to="/">Contactanos</router-link>
+                        <router-link to="/contacto">Contactanos</router-link>
                     </div>
                     <div class="menu-item">
                         <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
