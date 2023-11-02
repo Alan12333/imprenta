@@ -18,36 +18,36 @@ export default {
     },
     data() {
         return {
-            question1:true,
-            question2:false,
-            question3:false,
+            question1: true,
+            question2: false,
+            question3: false,
             modules: [Navigation, A11y]
         }
     },
     methods: {
-        onSwiper(swiper){
+        onSwiper(swiper) {
             console.log(swiper);
         },
-        OpenQuestion(number){
+        OpenQuestion(number) {
             if (number === 1) {
-                this.question1= !this.question1; 
+                this.question1 = !this.question1;
                 this.question2 = false;
                 this.question3 = false;
             }
             if (number === 2) {
                 this.question1 = false;
-                this.question2= !this.question2; 
+                this.question2 = !this.question2;
                 this.question3 = false;
             }
             if (number === 3) {
                 this.question1 = false;
                 this.question2 = false;
-                this.question3= !this.question3; 
+                this.question3 = !this.question3;
             }
         },
     },
     mounted() {
-        
+
     },
 }
 </script>
@@ -291,36 +291,92 @@ export default {
         <div class="contenido mt-4">
             <div class="rw">
                 <div class="sup-4-s shad-1-gray mt-4 m-auto border-rad-1 bg-white">
-                    <img src="../../assets/icons/ofset.png" alt="" class="service-img">
+                    <img src="../../assets/icons/offset.png" alt="" class="service-img">
                     <p class="fs-5 text-center fw-bold">Impresión Offset</p>
+                    <div class="cont-90 m-auto">
+                        <p class="fs-6 text-justify mt-3">La impresión offset es un proceso que transfiere tinta de una
+                            plancha metálica a un rodillo y luego
+                            al sustrato. Destaca por su alta calidad, ideal para grandes cantidades de impresión.</p>
+                        <router-link to="" class="text-d fw-bold d-block m-auto text-center text-hov-black">Saber
+                            más</router-link><br>
+                    </div>
                 </div>
                 <div class="sup-4-s shad-1-gray my-4 m-auto border-rad-1 bg-white">
-                    <img src="../../assets/icons/ofset.png" alt="" class="service-img">
-                    <p class="fs-5 text-center fw-bold">Impresión Offset</p>
+                    <img src="../../assets/icons/dise.png" alt="" class="service-img">
+                    <p class="fs-5 text-center fw-bold">Diseño gráfico</p>
+                    <div class="cont-90 m-auto">
+                        <p class="fs-6 text-justify mt-3">El diseño gráfico es la creación visual que comunica ideas o
+                            mensajes. Utiliza imágenes, tipografía y colores para transmitir información efectivamente en
+                            diferentes medios, ya sean impresos o digitales.</p>
+                        <router-link to="" class="text-d fw-bold d-block m-auto text-center text-hov-black">Saber
+                            más</router-link><br>
+                    </div>
                 </div>
                 <div class="sup-4-s shad-1-gray my-4 m-auto border-rad-1 bg-white">
-                    <img src="../../assets/icons/ofset.png" alt="" class="service-img">
-                    <p class="fs-5 text-center fw-bold">Impresión Offset</p>
+                    <img src="../../assets/icons/tsh.png" alt="" class="service-img">
+                    <p class="fs-5 text-center fw-bold">Sublimado textil</p>
+                    <div class="cont-90 m-auto">
+                        <p class="fs-6 text-justify mt-3">El sublimado textil es un proceso que imprime tintas en telas
+                            mediante calor. Ideal para playeras y sudaderas, permite imágenes duraderas y de alta calidad al
+                            fusionar la tinta con las fibras de la tela.</p>
+                        <router-link to="" class="text-d fw-bold d-block m-auto text-center text-hov-black">Saber
+                            más</router-link><br>
+                    </div>
                 </div>
                 <div class="sup-4-s shad-1-gray my-4 m-auto border-rad-1 bg-white">
-                    <img src="../../assets/icons/ofset.png" alt="" class="service-img">
-                    <p class="fs-5 text-center fw-bold">Impresión Offset</p>
+                    <img src="../../assets/icons/card.png" alt="" class="service-img">
+                    <p class="fs-5 text-center fw-bold">Tarjetas de presentación</p>
+                    <div class="cont-90 m-auto">
+                        <p class="fs-6 text-justify mt-3">Las tarjetas de presentación son herramientas de negocio que
+                            presentan información personal o empresarial. Utilizan papel de alta calidad y diseños creativos
+                            para dejar una impresión profesional.</p>
+                        <router-link to="" class="text-d fw-bold d-block m-auto text-center text-hov-black">Saber
+                            más</router-link><br>
+                    </div>
                 </div>
                 <div class="sup-4-s shad-1-gray my-4 m-auto border-rad-1 bg-white">
-                    <img src="../../assets/icons/ofset.png" alt="" class="service-img">
-                    <p class="fs-5 text-center fw-bold">Impresión Offset</p>
+                    <img src="../../assets/icons/invitacion.png" alt="" class="service-img">
+                    <p class="fs-5 text-center fw-bold">Invitaciones</p>
+                    <div class="cont-90 m-auto">
+                        <p class="fs-6 text-justify mt-3">Las invitaciones son mensajes que anuncian eventos. Utilizan
+                            diseños atractivos y papel especial para reflejar el tono y la importancia del acontecimiento,
+                            creando una experiencia memorable para los invitados.</p>
+                        <router-link to="" class="text-d fw-bold d-block m-auto text-center text-hov-black">Saber
+                            más</router-link><br>
+                    </div>
                 </div>
                 <div class="sup-4-s shad-1-gray my-4 m-auto border-rad-1 bg-white">
-                    <img src="../../assets/icons/ofset.png" alt="" class="service-img">
-                    <p class="fs-5 text-center fw-bold">Impresión Offset</p>
+                    <img src="../../assets/icons/cup.png" alt="" class="service-img">
+                    <p class="fs-5 text-center fw-bold">Sublimación en cerámica</p>
+                    <div class="cont-90 m-auto">
+                        <p class="fs-6 text-justify mt-3">La sublimación en cerámica y termos es un proceso de impresión que
+                            transfiere imágenes o diseños a alta temperatura. Se utiliza en tazas, cerámica y termos,
+                            garantizando impresiones duraderas y de alta calidad.</p>
+                        <router-link to="" class="text-d fw-bold d-block m-auto text-center text-hov-black">Saber
+                            más</router-link><br>
+                    </div>
                 </div>
                 <div class="sup-4-s shad-1-gray my-4 m-auto border-rad-1 bg-white">
-                    <img src="../../assets/icons/ofset.png" alt="" class="service-img">
-                    <p class="fs-5 text-center fw-bold">Impresión Offset</p>
+                    <img src="../../assets/icons/digit.png" alt="" class="service-img">
+                    <p class="fs-5 text-center fw-bold">Impresión digital</p>
+                    <div class="cont-90 m-auto">
+                        <p class="fs-6 text-justify mt-3">La impresión digital es un método que imprime directamente el
+                            diseño digital sobre el material. Rápida y versátil, es ideal para cantidades pequeñas a
+                            medianas, ofreciendo calidad y personalización en cortos plazos.</p>
+                        <router-link to="" class="text-d fw-bold d-block m-auto text-center text-hov-black">Saber
+                            más</router-link><br>
+                    </div>
                 </div>
                 <div class="sup-4-s shad-1-gray my-4 m-auto border-rad-1 bg-white">
-                    <img src="../../assets/icons/ofset.png" alt="" class="service-img">
-                    <p class="fs-5 text-center fw-bold">Impresión Offset</p>
+                    <img src="../../assets/icons/brand.png" alt="" class="service-img">
+                    <p class="fs-5 text-center fw-bold">Diseño de marca</p>
+                    <div class="cont-90 m-auto">
+                        <p class="fs-6 text-justify mt-3">Es la representación visual que identifica y
+                            diferencia a una empresa. Incluye elementos como el logo, colores y tipografía, creando una
+                            identidad distintiva que conecta con su audiencia y refleja los valores de la compañía.</p>
+                        <router-link to="" class="text-d fw-bold d-block m-auto text-center text-hov-black">Saber
+                            más</router-link><br>
+                    </div>
                 </div>
             </div>
         </div>
@@ -366,6 +422,8 @@ export default {
     <div class="w-100" style="background:rgb(241,241,241);">
         <div class="separator"></div>
         <div class="contenido">
+            <h1 class="text-trans ">CONTACTANOS</h1>
+            <h3 class="fs-1 text-bold text-center ">ESTAMOS AQUÍ PARA AYUDARTE</h3><br><br>
             <div class="content">
                 <div class="rw">
                     <div class="sup-2-s">
@@ -380,7 +438,8 @@ export default {
                                     </div>
                                 </div>
                                 <input type="text" placeholder="Correo" class="input-form">
-                                <textarea name="" id="" cols="30" rows="8" class="input-form" placeholder="Mensaje"></textarea>
+                                <textarea cols="30" rows="8" class="input-form" placeholder="Mensaje"></textarea>
+                                <button class="button-form">Enviar</button>
                             </div>
                         </form>
                     </div>
@@ -388,17 +447,22 @@ export default {
                         <div class="card-question shadow-sm">
                             <div class="cont-95 m-auto d-flex position-relative">
                                 <img src="../../assets/icons/question.png" alt="" class="info-icon">
-                                <h6 class="fs-5 mt-2 fw-bold" :class="{cblu:question1 === true}">¿Pregunta numero 1?</h6>
+                                <h6 class="text-question mt-2 fw-bold" :class="{ cblu: question1 === true }">Tiempo de
+                                    entrega
+                                </h6>
                                 <img src="../../assets/icons/down.png" alt="" class=" icn"
                                     :class="{ rot: question1 == true }" @click="OpenQuestion(1)">
                             </div>
 
-                            <div v-if="question1 == true" class="info" :class="{faq:question1 == true}">
+                            <div v-if="question1 == true" class="info" :class="{ faq: question1 == true }">
                                 <div class="line2"></div>
                                 <div class="mt-3 cont-95 m-auto">
-                                    <p class="text-justify fs-6">Consequat anim dolor officia adipisicing et fugiat et
-                                        commodo ad consectetur pariatur. Amet laboris aute aliqua laborum enim nisi ex et.
-                                        Sunt commodo ipsum qui amet.</p>
+                                    <p class="text-justify fs-6">
+                                        Nuestro compromiso es ofrecer tiempos de entrega eficientes. Sin embargo, la
+                                        variación puede depender del producto solicitado,
+                                        procurando siempre cumplir con plazos precisos para asegurar la satisfacción de
+                                        nuestros clientes.
+                                    </p>
                                 </div>
                             </div>
 
@@ -407,16 +471,23 @@ export default {
                         <div class="card-question shadow-sm">
                             <div class="cont-95 m-auto d-flex position-relative">
                                 <img src="../../assets/icons/question.png" alt="" class="info-icon">
-                                <h6 class="fs-5 mt-2 fw-bold" :class="{cblu:question2 === true}">¿Pregunta numero 2?</h6>
+                                <div class="cont-70">
+                                    <h6 class="text-question mt-2 fw-bold" :class="{ cblu: question2 === true }">¿Hacen
+                                        envios
+                                        a todo mexico?</h6>
+                                </div>
                                 <img src="../../assets/icons/down.png" alt="" class=" icn"
                                     :class="{ rot: question2 == true }" @click="OpenQuestion(2)">
                             </div>
-                            <div v-if="question2 == true" class="info" :class="{faq:question2 == true}">
+                            <div v-if="question2 == true" class="info" :class="{ faq: question2 == true }">
                                 <div class="line2"></div>
                                 <div class="mt-3 cont-95 m-auto">
-                                    <p class="text-justify fs-6">Consequat anim dolor officia adipisicing et fugiat et
-                                        commodo ad consectetur pariatur. Amet laboris aute aliqua laborum enim nisi ex et.
-                                        Sunt commodo ipsum qui amet.</p>
+                                    <p class="text-justify fs-6">Lamentablemente, no realizamos entregas a todos los
+                                        rincones de la República.
+                                        No obstante, están invitados a solicitar una cotización; así podremos evaluar la
+                                        factibilidad de envío
+                                        a su ubicación específica. Es importante tener en cuenta que los costos de envío
+                                        pueden variar.</p>
                                 </div>
                             </div>
                         </div>
@@ -424,21 +495,27 @@ export default {
                         <div class="card-question shadow-sm">
                             <div class="cont-95 m-auto d-flex position-relative">
                                 <img src="../../assets/icons/question.png" alt="" class="info-icon">
-                                <h6 class="fs-5 mt-2 fw-bold" :class="{cblu:question3 === true}">¿Pregunta numero 3?</h6>
+                                <div class="cont-70">
+                                    <h6 class="text-question mt-2 fw-bold" :class="{ cblu: question3 === true }">¿Ofrecen
+                                        servicios de diseño gráfico?</h6>
+                                </div>
                                 <img src="../../assets/icons/down.png" alt="" class=" icn"
                                     :class="{ rot: question3 == true }" @click="OpenQuestion(3)">
                             </div>
-                            <div v-if="question3 == true" class="info" :class="{faq:question3 == true}">
+                            <div v-if="question3 == true" class="info" :class="{ faq: question3 == true }">
                                 <div class="line2"></div>
                                 <div class="mt-3 cont-95 m-auto">
-                                    <p class="text-justify fs-6">Consequat anim dolor officia adipisicing et fugiat et
-                                        commodo ad consectetur pariatur. Amet laboris aute aliqua laborum enim nisi ex et.
-                                        Sunt commodo ipsum qui amet.</p>
+                                    <p class="text-justify fs-6">¡Por supuesto! Nuestros servicios incluyen diseño a medida,
+                                        completamente personalizado para cada cliente. Contamos con un equipo de expertos en
+                                        diseño gráfico listos para transformar sus ideas en creaciones visuales únicas y
+                                        ajustadas a sus preferencias.</p>
                                 </div>
                             </div>
                         </div>
+                        <br><br>
                     </div>
                 </div>
+
             </div>
         </div>
         <div class="separator"></div>
@@ -454,7 +531,11 @@ export default {
     background: rgb(41, 160, 218);
     height: 1px;
 }
-.cblu{color: rgb(41, 160, 218);}
+
+.cblu {
+    color: rgb(41, 160, 218);
+}
+
 .info-icon {
     width: 35px;
     height: 35px;
@@ -476,5 +557,4 @@ export default {
 .rot {
     transition: all .45s;
     transform: rotate(180deg);
-}
-</style>
+}</style>

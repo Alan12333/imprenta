@@ -224,6 +224,27 @@ html {
 .faq {
     max-height: 200px; /* Ajusta la altura máxima según el contenido */
 }
+.button-form{
+    width: 95%;
+    padding: 10px;
+    background: rgb(44, 161, 218);
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin: 5% auto auto auto;
+    border-radius: 5px;
+    display: block;
+    font-size: 18px;
+    transition: all .45s;
+}
+
+.button-form:hover
+{
+    background: rgb(91, 183, 228);
+}
+.text-question{
+    font-size: 1.25rem;
+}
 @media(max-width:1150px)
 {
     .text-trans{
@@ -345,6 +366,9 @@ html {
     .btn-sp{
         width: 55%;
     }
+    .text-question{
+        font-size: 1.15rem;
+    }
 }
 
 @media(max-width:400px){
@@ -365,5 +389,8 @@ html {
         width: 100%;
         height: 2300px;
         background: rgb(245, 246, 250);
+    }
+    .text-question{
+        font-size: 1rem;
     }
 }
