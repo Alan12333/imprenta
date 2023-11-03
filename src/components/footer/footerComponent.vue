@@ -43,11 +43,11 @@ export default {
                                     </div>
                                     <div class="flex-f my-3">
                                         <img src="../../assets/icons/rows.png" alt="" class="footer-icon">
-                                        <router-link to="" class="fs-6  mr-l-4 footer-link">Contacto</router-link>
+                                        <router-link to="/contacto" class="fs-6  mr-l-4 footer-link">Contacto</router-link>
                                     </div>
                                     <div class="flex-f my-3">
                                         <img src="../../assets/icons/rows.png" alt="" class="footer-icon">
-                                        <router-link to="" class="fs-6  mr-l-4 footer-link">Aviso de privacidad</router-link>
+                                        <router-link to="/aviso-privacidad" class="fs-6  mr-l-4 footer-link">Aviso de privacidad</router-link>
                                     </div>
                                     <div class="flex-f my-3">
                                         <img src="../../assets/icons/rows.png" alt="" class="footer-icon">
