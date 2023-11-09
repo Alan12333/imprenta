@@ -51,7 +51,7 @@ export default {
                                     </div>
                                     <div class="flex-f my-3">
                                         <img src="../../assets/icons/rows.png" alt="" class="footer-icon">
-                                        <router-link to="" class="fs-6  mr-l-4 footer-link">Política de Cookies</router-link>
+                                        <router-link to="cookies" class="fs-6  mr-l-4 footer-link">Política de Cookies</router-link>
                                     </div>
                                     <div class="flex-f my-3">
                                         <img src="../../assets/icons/rows.png" alt="" class="footer-icon">
