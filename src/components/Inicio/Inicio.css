@@ -39,8 +39,13 @@ html {
     outline: none;
     display: block;
     margin: auto;
-    margin-top: 15px;
+    margin-top: 8px;
     resize: none;
+}
+
+.field_bad{
+    transition: all .45s;
+    border: 1px solid red;
 }
 
 .card-service:hover

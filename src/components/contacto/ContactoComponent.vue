@@ -1,28 +1,12 @@
-<script>
-import MenuComponent from '../Menu/MenuComponent.vue';
-import FormularioComponent from '../Inicio/FormularioComponent.vue';
-import FooterComponent from '../footer/footerComponent.vue';
 
-export default {
-    data() {
-        return {
-            
-        }
-    },
-    methods: {
-        
-    },
-    components:{
-        MenuComponent,
-        FooterComponent,
-        FormularioComponent,
-    },
-    
-}
-</script>
 
 <template>
     <div>
+        <div v-if="loading === true">
+            <div class="loader">
+                <img src="../../assets/logo2.png" alt="GIF" class="img">
+            </div>
+        </div>
         <MenuComponent/>
         <div class="separator"></div>
         <h1 class="text-center fs-2">Contacto</h1>
@@ -91,7 +75,32 @@ export default {
         <FooterComponent/>
     </div>
 </template>
+<script>
+import MenuComponent from '../Menu/MenuComponent.vue';
+import FormularioComponent from '../Inicio/FormularioComponent.vue';
+import FooterComponent from '../footer/footerComponent.vue';
 
+export default {
+    data() {
+        return {
+            loading:true
+        }
+    },
+    methods: {
+        
+    },
+    components:{
+        MenuComponent,
+        FooterComponent,
+        FormularioComponent,
+    },
+    mounted() {
+        setTimeout(() => {
+            this.loading = false;
+        }, 1000);
+    },
+}
+</script>
 <style>
 .contact-img{
     width: 100%;

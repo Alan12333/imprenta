@@ -4,12 +4,18 @@ import InicioComponent from "./components/Inicio/InicioComponent.vue";
 import contactoVue from './components/contacto/ContactoComponent.vue';
 import AvisoComponentVue from './components/politicas/AvisoComponent.vue';
 import CookiesComponentVue from './components/politicas/CookiesComponent.vue';
+import InvitacionComponent from './components/productos/InvitacionComponent.vue';
 
 const routes = [
     {
         path: '/',
         component: InicioComponent,
         name: 'inicio',
+    },
+    {
+        path: '/productos/invitaciones',
+        component: InvitacionComponent,
+        name: 'invitaciones',
     },
     {
         path:'/contacto',

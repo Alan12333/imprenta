@@ -1374,7 +1374,6 @@ body::-webkit-scrollbar-thumb {
     z-index: 1000 !important;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.7);
-    visibility: hidden;
     top: 0;
 }
 

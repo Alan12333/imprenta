@@ -35,7 +35,7 @@ export default {
                         <div class="content">
                             <div class="rw">
                                 <div class="sup-2-s">
-                                    <p class="fs-5 fw-bold text-white">ACCESO RAPIDO</p>
+                                    <p class="fs-5 fw-bold text-white">ACCESO RÁPIDO</p>
                                     <div class="line"></div>
                                     <div class="flex-f my-4">
                                         <img src="../../assets/icons/rows.png" alt="" class="footer-icon">
@@ -68,7 +68,7 @@ export default {
                                     </div>
                                     <div class="flex-f my-3">
                                         <img src="../../assets/icons/rows.png" alt="" class="footer-icon">
-                                        <router-link to="" class="fs-6  mr-l-4 footer-link">Invitaciones</router-link>
+                                        <router-link to="/productos/invitaciones" class="fs-6  mr-l-4 footer-link">Invitaciones</router-link>
                                     </div>
                                     <div class="flex-f my-3">
                                         <img src="../../assets/icons/rows.png" alt="" class="footer-icon">
