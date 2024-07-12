@@ -86,7 +86,7 @@
                                 <div v-if="question2 == true" class="info" :class="{ faq: question2 == true }">
                                     <div class="line2"></div>
                                     <div class="mt-3 cont-95 m-auto">
-                                        <p class="text-justify fs-6">Lamentablemente, no realizamos entregas a todos los
+                                        <p class="text-justify fs-6">Lamentablemente no realizamos entregas a todos los
                                             rincones de la República.
                                             No obstante, están invitados a solicitar una cotización; así podremos
                                             evaluar la
@@ -178,6 +178,7 @@ export default {
             form.append('mensaje', mensaje.value);
             try {
                 const res = await axios.post('http://localhost:3000/api/contacto', form);
+                
                 console.log(res.data);
             }
             catch (e) {
@@ -186,7 +187,11 @@ export default {
 
         }
         const FormValidate = (event) => {
+            
             event.preventDefault();
+            const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+            
             if (nombre.value === '') {
                 errormessage.value.Nombre ='El campo Nombre es obligatorio';
             }
@@ -207,6 +212,9 @@ export default {
             }
             if (correo.value === '') {
                 errormessage.value.Correo='El campo Correo es obligatorio';
+            }
+            else if (!emailRegex.test(correo.value)) {
+                errormessage.value.Correo='El correo no es válido';
             }
             else
             {

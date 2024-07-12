@@ -4,7 +4,8 @@ import InicioComponent from "./components/Inicio/InicioComponent.vue";
 import contactoVue from './components/contacto/ContactoComponent.vue';
 import AvisoComponentVue from './components/politicas/AvisoComponent.vue';
 import CookiesComponentVue from './components/politicas/CookiesComponent.vue';
-import InvitacionComponent from './components/productos/InvitacionComponent.vue';
+// import InvitacionComponent from './components/productos/InvitacionComponent.vue';
+import TarjetasPresentacionComponent from './components/productos/TarjetasPresentacionComponent.vue';
 
 const routes = [
     {
@@ -13,9 +14,9 @@ const routes = [
         name: 'inicio',
     },
     {
-        path: '/productos/invitaciones',
-        component: InvitacionComponent,
-        name: 'invitaciones',
+        path: '/productos/tarjetas-de-presentacion',
+        component: TarjetasPresentacionComponent,
+        name: 'Tarjetas',
     },
     {
         path:'/contacto',

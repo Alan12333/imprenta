@@ -1,34 +1,4 @@
-<script>
-import "./Menu.css";
 
-export default {
-    name: "MenuComponent",
-    data() {
-        return {
-            isMenuOpen: false,
-            expands: false
-        }
-    },
-    methods: {
-        Openmenu() {
-            if (this.isMenuOpen === false) {
-                this.isMenuOpen = true;
-            }
-            else {
-                this.isMenuOpen = false;
-            }
-        },
-        Expand() {
-            if (this.expands === false) {
-                this.expands = true;
-            }
-            else {
-                this.expands = false;
-            }
-        }
-    },
-}
-</script>
 
 <template>
     <div>
@@ -54,7 +24,7 @@ export default {
                                     <p>Impresión Offset</p>
                                 </div>
                                 <div class="dropdown-item-menu">
-                                    <p>Tarjetas de presentación</p>
+                                    <p @click="OpenTrajetas()">Tarjetas de presentación</p>
                                 </div>
                                 <div class="dropdown-item-menu">
                                     <p>Sublimación</p>
@@ -108,7 +78,7 @@ export default {
                             <p>Impresión Offset</p>
                         </div>
                         <div class="dropdown-item-menu">
-                            <p>Tarjetas de presentación</p>
+                            <p @click="OpenTrajetas()">Tarjetas de presentación</p>
                         </div>
                         <div class="dropdown-item-menu">
                             <p>Sublimación</p>
@@ -132,3 +102,39 @@ export default {
         </div>
     </div>
 </template>
+
+<script>
+import "./Menu.css";
+
+export default {
+    name: "MenuComponent",
+    data() {
+        return {
+            isMenuOpen: false,
+            expands: false
+        }
+    },
+    methods: {
+        Openmenu() {
+            if (this.isMenuOpen === false) {
+                this.isMenuOpen = true;
+            }
+            else {
+                this.isMenuOpen = false;
+            }
+        },
+        Expand() {
+            if (this.expands === false) {
+                this.expands = true;
+            }
+            else {
+                this.expands = false;
+            }
+        },
+        OpenTrajetas()
+        {
+            this.$router.push("/productos/tarjetas-de-presentacion");
+        }
+    },
+}
+</script>

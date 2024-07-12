@@ -101,7 +101,7 @@ export default {
                 </div>
             </div>
             <div>
-                <p class="fs-7 mt-5 text-center text-white">Calidad impresa en cada detalle. Tu historia, nuestra pasión. Impresos Pénjamo. © 2023</p>
+                <p class="fs-7 mt-5 text-center text-white">Calidad impresa en cada detalle. Tu historia, nuestra pasión. Impresos Pénjamo. © 2024</p>
             </div>
         </div>
     </div>

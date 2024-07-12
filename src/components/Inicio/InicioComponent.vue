@@ -282,7 +282,7 @@
                             <p class="fs-6 text-justify mt-3">Las tarjetas de presentación son herramientas de negocio que
                                 presentan información personal o empresarial. Utilizan papel de alta calidad y diseños creativos
                                 para dejar una impresión profesional.</p>
-                            <router-link to="" class="text-d fw-bold d-block m-auto text-center text-hov-black">Saber
+                            <router-link to="/productos/tarjetas-de-presentacion" class="text-d fw-bold d-block m-auto text-center text-hov-black">Saber
                                 más</router-link><br>
                         </div>
                     </div>
@@ -320,12 +320,13 @@
                         </div>
                     </div>
                     <div class="sup-4-s shad-1-gray my-4 m-auto border-rad-1 bg-white">
-                        <img src="../../assets/icons/brand.png" alt="" class="service-img">
-                        <p class="fs-5 text-center fw-bold">Diseño de marca</p>
+                        <img src="../../assets/icons/eart.png" alt="" class="service-img">
+                        <p class="fs-5 text-center fw-bold">EcoDigital</p>
                         <div class="cont-90 m-auto">
-                            <p class="fs-6 text-justify mt-3">Es la representación visual que identifica y
-                                diferencia a una empresa. Incluye elementos como el logo, colores y tipografía, creando una
-                                identidad distintiva que conecta con su audiencia y refleja los valores de la compañía.</p>
+                            <p class="fs-6 text-justify mt-3">EcoDigital ofrece soluciones digitales sostenibles, 
+                                como documentos digitalizados, catálogos y folletos electrónicos, y contenidos interactivos.
+                                Nuestro enfoque elimina el uso de papel y tintas, reduciendo el impacto ambiental y 
+                                reflejando el compromiso con la sostenibilidad.</p>
                             <router-link to="" class="text-d fw-bold d-block m-auto text-center text-hov-black">Saber
                                 más</router-link><br>
                         </div>
@@ -345,7 +346,7 @@
                             </div><br><br>
                             <div class="sup-2-s">
 
-                                <h3 class="text-white text-center fw-bold fs-4">¡Déjanos dar vida a tus ideas impresas! </h3>
+                                <h3 class="text-white text-center fw-bold fs-4">¡Déjanos dar vida a tus ideas! </h3>
                                 <br>
                                 <div class="cont-80 m-auto">
                                     <p class="text-white fs-6 text-justify">
