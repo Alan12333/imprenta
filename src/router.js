@@ -6,6 +6,7 @@ import AvisoComponentVue from './components/politicas/AvisoComponent.vue';
 import CookiesComponentVue from './components/politicas/CookiesComponent.vue';
 // import InvitacionComponent from './components/productos/InvitacionComponent.vue';
 import TarjetasPresentacionComponent from './components/productos/TarjetasPresentacionComponent.vue';
+import OfsetComponent from './components/productos/OfsetComponent.vue';
 
 const routes = [
     {
@@ -32,6 +33,11 @@ const routes = [
         path:'/cookies',
         component:CookiesComponentVue,
         name:'cookies'
+    },
+    {
+        path:"/impresion-ofsset",
+        component:OfsetComponent,
+        name:"ofset"
     }
 ];
 

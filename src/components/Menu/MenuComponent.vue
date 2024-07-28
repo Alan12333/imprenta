@@ -75,7 +75,7 @@
                             <p>Impresión Digital</p>
                         </div>
                         <div class="dropdown-item-menu">
-                            <p>Impresión Offset</p>
+                            <router-link to="/impresion-ofsset">Impresion-ofsset</router-link>
                         </div>
                         <div class="dropdown-item-menu">
                             <p @click="OpenTrajetas()">Tarjetas de presentación</p>
